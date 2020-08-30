@@ -1,6 +1,19 @@
-﻿  manchkin.cpp
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(52,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(53,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(32,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(28,9): warning C4018: >: несоответствие типов со знаком и без знака
+﻿  Player.cpp
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(37,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(44,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(84,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  manchkin.cpp
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(37,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(44,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(84,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(26,9): warning C4018: >: несоответствие типов со знаком и без знака
+  Создание кода...
   manchkin.vcxproj -> D:\Программы\VisualStudio\manchkin\Debug\manchkin.exe

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <locale.h>
 using namespace std;
 
 class CardEnemy
@@ -13,6 +14,7 @@ private:
 	int enemyAntiLvlBonus;
 public:
 	CardEnemy(string n, int lvl, string d, int lvlb, int ctb, int antib) {
+		setlocale(LC_ALL, "Russian");
 		enemyName = n;
 		enemyLvl = lvl;
 		enemyDescription = d;

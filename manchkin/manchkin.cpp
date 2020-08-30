@@ -8,14 +8,13 @@
 #include <locale.h>
 
 using namespace std;
+void fightEnemy(Player player);
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
     string name = "Makar";
 	Deck* deck = new Deck;
-	deck->getCardEnemy();
-	deck->getCardEnemy(); deck->getCardEnemy(); deck->getCardEnemy(); deck->getCardEnemy(); deck->getCardEnemy(); deck->getCardEnemy(); deck->getCardEnemy();
 	Player player(name, deck);
 	player.showCards();
 	player.showPlayerInfo();
@@ -37,15 +36,25 @@ int main()
 	if (p == 0)
 		p++;
 	player.playCard(p-1);
+	fightEnemy(player);
 
-	void fightEnemy() {
-		cout << "If you are ready to fight a monster write 'knock'";
-		cin >> string knock;
-		if (knock == "knock")
-			player.fight();
-	}
-	
 	delete deck;
+}
+void fightEnemy(Player player) {
+	cout << "If you are ready to fight a monster write 'knock'";
+	string knock;
+	cin >> knock;
+	if (knock == "knock") {
+		player.knockKnock();
+		cout << "Do you think ure strong enough to fight it? Press 'f' to fight, press 's' to try to slip away";
+		string input;
+		cin >> input;
+		if (input == "f")
+			player.fight();
+		else if (input == "s")
+			player.runAway();
+	}
+	return;
 }
 
 

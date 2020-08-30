@@ -6,6 +6,7 @@
 #include "CardEnemy.h"
 #include <algorithm>
 #include <ctime>
+#include <locale.h>
 using namespace std;
 
 class Player{
@@ -19,6 +20,7 @@ private:
 	int bonus;
 public:
 	Player(string name, Deck* deck) {
+		setlocale(LC_ALL, "Russian");
 		this->name = name;
 		this->deck = deck;
 		takeCard(8);
@@ -56,7 +58,7 @@ public:
 		cards.pop_back();
 	}
 	
-	void knockKnock(int indexce) {
+	void knockKnock() {
 		enemy = &(deck->getCardEnemy());
 	}
 
@@ -98,6 +100,7 @@ public:
 	void lose() {
 		int a = enemy->getAntiLvlBonus();
 		lvl -= a;
+		cout << "Your lvl became " << lvl << ". It was downgraded by " << enemy->getAntiLvlBonus() << endl;
 		if (lvl <= 0)
 			cout << "YOU DIED";
 	}

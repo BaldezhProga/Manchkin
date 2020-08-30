@@ -7,6 +7,7 @@
 #include <string>
 #include <algorithm>
 #include <ctime>
+#include <locale.h>
 
 using namespace std;
 class Deck
@@ -29,6 +30,7 @@ private:
 		}
 		fin.close(); }
 	void getEnemy() {
+		setlocale(LC_ALL, "Russian");
 		string enemyPath = "D:/CppNeRussian/CardEnemy.txt";
 		ifstream fin(enemyPath);
 		string name;
@@ -69,6 +71,7 @@ private:
 
 public:
 	Deck() {
+		setlocale(LC_ALL, "Russian");
 		getTools();
 		getEnemy();
 		shuffleTools();
