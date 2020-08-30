@@ -37,6 +37,13 @@ int main()
 	if (p == 0)
 		p++;
 	player.playCard(p-1);
+
+	void fightEnemy() {
+		cout << "If you are ready to fight a monster write 'knock'";
+		cin >> string knock;
+		if (knock == "knock")
+			player.fight();
+	}
 	
 	delete deck;
 }

@@ -4,6 +4,8 @@
 #include "Deck.h"
 #include <vector>
 #include "CardEnemy.h"
+#include <algorithm>
+#include <ctime>
 using namespace std;
 
 class Player{
@@ -55,7 +57,49 @@ public:
 	}
 	
 	void knockKnock(int indexce) {
+		enemy = &(deck->getCardEnemy());
+	}
+
+	void fight() {
+		int a;
+		int b;
+		a = lvl + bonus;
+		b = enemy->getLvl();
+		if (a > b)
+		{
+			cout << "U win, u get " << enemy->getCardToolBonus() << " tools, " << enemy->getLvlBonus() << " lvl(s)";
+			lvl += enemy->getLvlBonus();
+			takeCard(enemy->getCardToolBonus());
+			return;
+		}
+		runAway();
+
+	}
+	 
+	void runAway() {
+		cout << "You cant defeat this monster, here's your chance to slip away: you need to guess 1 number " <<
+			"from 1 till 6 to do it, othervise you lose";
+		srand(time(NULL));
+		int r = rand() % 6;
+		int r2;
+		do
+			r2 = rand() % 6;
+		while (r == r2);
+		r++;
+		r2++;
+		int r3;
+		cin >> r3;
+		if (r3 == r || r3 == r2)
+			cout << "You slipped away, but didnt get the tools((";
+		else
+			lose();
+	}
 	
+	void lose() {
+		int a = enemy->getAntiLvlBonus();
+		lvl -= a;
+		if (lvl <= 0)
+			cout << "YOU DIED";
 	}
 	
 	vector<CardTool> getCards() {
