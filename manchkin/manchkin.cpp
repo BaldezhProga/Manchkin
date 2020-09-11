@@ -15,6 +15,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
     string name = "Makar";
 	Deck* deck = new Deck;
+
 	Player player(name, deck);
 	player.showCards();
 	player.showPlayerInfo();

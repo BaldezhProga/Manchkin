@@ -75,6 +75,7 @@ public:
 		getTools();
 		getEnemy();
 		shuffleTools();
+		shuffleEnemies();
 	}
 	CardTool getCardTool() {
 		CardTool ct = cardTools[cardTools.size() - 1];

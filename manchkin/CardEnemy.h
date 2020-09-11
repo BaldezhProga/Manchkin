@@ -1,9 +1,10 @@
 #pragma once
 #include <iostream>
 #include <locale.h>
+#include "Card.h"
 using namespace std;
 
-class CardEnemy
+class CardEnemy: public Card 
 {
 private:
 	string enemyName;
@@ -13,7 +14,8 @@ private:
 	int enemyCardToolBonus;
 	int enemyAntiLvlBonus;
 public:
-	CardEnemy(string n, int lvl, string d, int lvlb, int ctb, int antib) {
+	CardEnemy() : Card("", ""){}
+	CardEnemy(string n, int lvl, string d, int lvlb, int ctb, int antib) : Card(n, d){
 		setlocale(LC_ALL, "Russian");
 		enemyName = n;
 		enemyLvl = lvl;
@@ -41,13 +43,8 @@ public:
 	int getAntiLvlBonus() {
 		return enemyAntiLvlBonus;
 	}
-
-
-
-	/*void playCard() {
-		cout << "The card you played is  " << enemyName << "!\n" << enemyDescription << "\nyour bonus is " << bonus << "!\n";
+	
+	void playCard() {
+		cout << "The card you played is  " << enemyName << "!\n" << enemyDescription << "\nyour bonus is " << enemyLvlBonus << "!\n";
 	}
-	int getBonus() {
-		return bonus;
-	}*/
 };

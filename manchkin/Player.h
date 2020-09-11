@@ -16,9 +16,10 @@ private:
 	vector<CardTool> cards;
 	vector<CardEnemy> enemies;
 	Deck* deck;
-	CardEnemy* enemy;
-	int bonus;
+	CardEnemy enemy;
+	
 public:
+	int bonus;
 	Player(string name, Deck* deck) {
 		setlocale(LC_ALL, "Russian");
 		this->name = name;
@@ -52,26 +53,26 @@ public:
 	}
 	
 	void playCard(int indexct) {
-		cards[indexct].playCard();
+		cards[indexct].playCard(this);
 		bonus += cards[indexct].getBonus();
 		cards[indexct] = cards[cards.size() - 1];
 		cards.pop_back();
 	}
 	
 	void knockKnock() {
-		enemy = &(deck->getCardEnemy());
+		enemy = (deck->getCardEnemy());
 	}
 
 	void fight() {
 		int a;
 		int b;
 		a = lvl + bonus;
-		b = enemy->getLvl();
+		b = enemy.getLvl();
 		if (a > b)
 		{
-			cout << "U win, u get " << enemy->getCardToolBonus() << " tools, " << enemy->getLvlBonus() << " lvl(s)";
-			lvl += enemy->getLvlBonus();
-			takeCard(enemy->getCardToolBonus());
+			cout << "U win, u get " << enemy.getCardToolBonus() << " tools, " << enemy.getLvlBonus() << " lvl(s)";
+			lvl += enemy.getLvlBonus();
+			takeCard(enemy.getCardToolBonus());
 			return;
 		}
 		runAway();
@@ -98,9 +99,9 @@ public:
 	}
 	
 	void lose() {
-		int a = enemy->getAntiLvlBonus();
+		int a = enemy.getAntiLvlBonus();
 		lvl -= a;
-		cout << "Your lvl became " << lvl << ". It was downgraded by " << enemy->getAntiLvlBonus() << endl;
+		cout << "Your lvl became " << lvl << ". It was downgraded by " << enemy.getAntiLvlBonus() << endl;
 		if (lvl <= 0)
 			cout << "YOU DIED";
 	}
