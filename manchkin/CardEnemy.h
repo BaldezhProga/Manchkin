@@ -4,7 +4,8 @@
 #include "Card.h"
 using namespace std;
 
-class CardEnemy: public Card 
+class Player;
+class CardEnemy : public Card
 {
 private:
 	string enemyName;
@@ -44,7 +45,5 @@ public:
 		return enemyAntiLvlBonus;
 	}
 	
-	void playCard() {
-		cout << "The card you played is  " << enemyName << "!\n" << enemyDescription << "\nyour bonus is " << enemyLvlBonus << "!\n";
-	}
+	void playCard(Player* player);
 };

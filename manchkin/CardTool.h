@@ -1,9 +1,8 @@
 #pragma once
 #include <iostream>
 #include "Card.h"
-#include "Player.h"
 using namespace std;
-
+class Player;
 
 class CardTool: public Card {
 private:
@@ -13,10 +12,7 @@ public:
 	CardTool(string n, string d, int b) : Card(n, d){
 		bonus = b;
 	}
-	void playCard(Player* player) {
-		cout << "The card you played is  " << name << "!\n" << description << "\nyour bonus is " << bonus << "!\n";
-		player->bonus += bonus;
-	}
+	void playCard(Player* player);
 	void showCard() {
 		cout << "The card is  " << name << "!\n" << description << "\nbonus " << bonus << "!\n";
 	}

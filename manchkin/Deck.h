@@ -15,6 +15,8 @@ class Deck
 private:
 	vector <CardTool> cardTools;
 	vector <CardEnemy> cardEnemies;
+	int cardToolsTaken;
+	int cardEnemiesTaken;
     void getTools(){
 		string path = "D:/CppNeRussian/CardTools.txt";
 		ifstream fin(path);
@@ -77,16 +79,11 @@ public:
 		shuffleTools();
 		shuffleEnemies();
 	}
-	CardTool getCardTool() {
-		CardTool ct = cardTools[cardTools.size() - 1];
-		cardTools.pop_back();
-		return(ct);
+	CardTool* getCardTool() {
+		return(&cardTools[cardToolsTaken++]);
 	}
-	CardEnemy getCardEnemy() {
-		CardEnemy ce = cardEnemies[cardEnemies.size() - 1];
-		cardEnemies.pop_back();
-		ce.showCard();
-		return (ce);
+	CardEnemy* getCardEnemy() {
+		return(&cardEnemies[cardEnemiesTaken++]);
 	}
 	
 };

@@ -1,220 +1,31 @@
 ﻿  CardTool.cpp
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(16,10): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(16,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(16,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(80,22): error C3646: getCardTool: неизвестный спецификатор переопределения
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(80,22): error C2059: синтаксическая ошибка: (
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(80,25): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(27,4): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(27,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ct"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(27,13): error C3861: ct: идентификатор не найден
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(28,24): error C2065: ct: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,23): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,21): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(58,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(58,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(58,30): error C2088: [: недопустимо для class
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(59,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(59,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(59,1): error C3536: ct: не может использоваться до инициализации
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(73,9): error C2512: std::vector: нет подходящего конструктора по умолчанию
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412,14): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(23,34): error C2512: std::vector: нет подходящего конструктора по умолчанию
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412,14): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,1): error C2039: "getCardTool": не является членом "Deck".
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(13): message : см. объявление "Deck"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,9): error C2663: std::vector<_Ty,_Alloc>::push_back: для 2 перегрузок нет допустимого преобразования для указателя "this"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,23): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(45,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,26): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): error C2662: void std::vector<_Ty,_Alloc>::pop_back(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1328,10): message : см. объявление "std::vector<_Ty,_Alloc>::pop_back"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(85,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): error C2440: return: невозможно преобразовать "std::vector" в "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): message : Создать class "std::vector" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
-  Deck.cpp
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,6): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,12): error C2238: непредвиденные лексемы перед ";"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(23,34): error C2061: синтаксическая ошибка: идентификатор "Deck"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(23,34): error C2512: std::vector: нет подходящего конструктора по умолчанию
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412,14): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(26,1): error C2039: "deck": не является членом "Player".
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(12): message : см. объявление "Player"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(26,16): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,20): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,9): error C2663: std::vector<_Ty,_Alloc>::push_back: для 2 перегрузок нет допустимого преобразования для указателя "this"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,23): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(45,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,26): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): error C2662: void std::vector<_Ty,_Alloc>::pop_back(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1328,10): message : см. объявление "std::vector<_Ty,_Alloc>::pop_back"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(63,12): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(85,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): error C2440: return: невозможно преобразовать "std::vector" в "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): message : Создать class "std::vector" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(65,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(47,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(93,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  CardEnemy.cpp
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(65,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(47,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(93,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   manchkin.cpp
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(16,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,6): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(18,12): error C2238: непредвиденные лексемы перед ";"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(23,34): error C2061: синтаксическая ошибка: идентификатор "Deck"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,9): error C2065: CardTool: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2923: std::vector: "CardTool" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(109,2): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(23,34): error C2512: std::vector: нет подходящего конструктора по умолчанию
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412,14): message : см. объявление "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(26,1): error C2039: "deck": не является членом "Player".
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(12): message : см. объявление "Player"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(26,16): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,20): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(33,9): error C2663: std::vector<_Ty,_Alloc>::push_back: для 2 перегрузок нет допустимого преобразования для указателя "this"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,23): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(40,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(45,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(57,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : при попытке сопоставить список аргументов "(std::vector, int)"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,1): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(58,26): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): error C2662: void std::vector<_Ty,_Alloc>::pop_back(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,1): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(59,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1328,10): message : см. объявление "std::vector<_Ty,_Alloc>::pop_back"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(63,12): error C2065: deck: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(85,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): error C2440: return: невозможно преобразовать "std::vector" в "std::vector"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(110,1): message : Создать class "std::vector" с помощью конструктора копий невозможно, так как конструкторы копий неоднозначны или отсутствуют
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(19,27): error C2661: Player::Player: нет перегруженной функции, принимающей 2 аргументов
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(27,6): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(27,6): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(27,17): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1482,26): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(34,27): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1507,27): message : может быть "const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const"
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(1497,21): message : или       "_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept"
-D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(34,27): message : при попытке сопоставить список аргументов "(std::vector, int)"
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(65,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(47,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(93,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\manchkin.cpp(27,9): warning C4018: >: несоответствие типов со знаком и без знака
   Player.cpp
-D:\Программы\VisualStudio\manchkin\manchkin\CardTool.h(16,22): error C2061: синтаксическая ошибка: идентификатор "Player"
-D:\Программы\VisualStudio\manchkin\manchkin\CardTool.h(18,3): error C2065: player: необъявленный идентификатор
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(54,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(55,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(63,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(64,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(38,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(45,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(56,1): error C2660: CardTool::playCard: функция не принимает 1 аргументов
-D:\Программы\VisualStudio\manchkin\manchkin\CardTool.h(16,7): message : см. объявление "CardTool::playCard"
-D:\Программы\VisualStudio\manchkin\manchkin\Player.h(85,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(56,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(57,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(65,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Программы\VisualStudio\manchkin\manchkin\Deck.h(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(47,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Программы\VisualStudio\manchkin\manchkin\Player.h(93,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода...
+  manchkin.vcxproj -> D:\Программы\VisualStudio\manchkin\Debug\manchkin.exe

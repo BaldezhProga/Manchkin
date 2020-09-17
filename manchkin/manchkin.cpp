@@ -24,14 +24,14 @@ int main()
 	int p = 0;
 	do {
 		cin >> b;
-		if (b > player.getCards().size())
+		if (b > player.getCards()->size())
 		{
 			cout << "Choose another card, you dont have this much cards";
 			continue;
 		}
 		if (b != 0) {
 			p = b;
-			player.getCards()[b - 1].showCard();
+			(*player.getCards())[b - 1]->showCard();
 		}
 	} while (b != 0);
 	if (p == 0)
@@ -57,5 +57,6 @@ void fightEnemy(Player player) {
 	}
 	return;
 }
+
 
 
